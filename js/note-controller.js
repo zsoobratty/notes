@@ -17,3 +17,4 @@ NoteController.prototype = (function() {
 noteList = new NoteList();
 noteController = new NoteController(noteList);
 
+noteController.insertHTML();
